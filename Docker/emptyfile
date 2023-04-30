@@ -1,1 +1,15 @@
 
+How to set up mysql using docker image 
+or 
+How to run mysql in docker container
+
+
+docker run -itd -p 8050:80  -e MYSQL_ROOT_PASSWORD=abc --name couter-db mysql
+
+Above command will create one container with mysql service in it.
+
+How to open mysql cmd 
+
+docker exec -it couter-db bash
+
+
